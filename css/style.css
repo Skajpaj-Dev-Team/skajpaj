@@ -1,5 +1,17 @@
+
 .sidebar{
+    display: flex;
     width: 7vh;
     height: 100vh;
     background-color: #484848;
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 1.4vh;
+    padding: 1.4vh;
+    margin-left: 4.9vh;
+    width: calc(100vh - 4.9vh);
+    box-sizing: border-box;
 }
